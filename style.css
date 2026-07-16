@@ -506,15 +506,14 @@ section {
 }
 
 #booking-widget {
-  min-height: 200px;
-  border: 1px dashed var(--color-border);
+  min-height: 700px;
+  border: 1px solid var(--color-border);
   border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text-dim);
-  padding: 2rem;
-  font-size: 0.9rem;
+  overflow: hidden;
+}
+
+#my-cal-inline {
+  min-height: 700px;
 }
 
 /* ---------- Opt-in ---------- */
